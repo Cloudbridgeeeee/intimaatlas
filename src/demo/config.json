@@ -1,0 +1,179 @@
+{
+  "name": "IntimaAtlas",
+  "primary": "Book a demo",
+  "accent": "#06525c",
+  "ink": "#06525c",
+  "bg": "#f7f9f8",
+  "surface": "#ebf0ee",
+  "fontLink": "<link href=\"https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..700&family=DM+Mono:wght@400;500&display=swap\" rel=\"stylesheet\">",
+  "fontDisplay": "\"Instrument Sans\", system-ui, sans-serif",
+  "fontText": "\"Instrument Sans\", system-ui, sans-serif",
+  "client": "Ikeja Wellness Stores",
+  "note": "Fixed catalogue and sales data. Figures here come from fixed data in your browser; no AI service is called.",
+  "tabs": {
+    "overview": "Categories",
+    "records": "Catalogue",
+    "queue": "Suggestions"
+  },
+  "overview": {
+    "title": "Category sales, last 12 weeks",
+    "kpis": [
+      [
+        "Products",
+        "214"
+      ],
+      [
+        "Categories",
+        "14"
+      ],
+      [
+        "Catalogue gaps",
+        "3"
+      ],
+      [
+        "Stores",
+        "6"
+      ]
+    ],
+    "chart": {
+      "title": "Sales growth per category, %",
+      "labels": [
+        "LU",
+        "MO",
+        "IW",
+        "PF",
+        "CO",
+        "SU",
+        "MC",
+        "WI"
+      ],
+      "values": [
+        18,
+        9,
+        22,
+        31,
+        2,
+        -6,
+        4,
+        11
+      ],
+      "threshold": 15,
+      "thresholdLabel": "Fast growth over 15%",
+      "caption": "Categories above the line are checked against how many products you stock."
+    }
+  },
+  "records": {
+    "title": "Catalogue",
+    "searchHint": "Brand or category",
+    "statusCol": 3,
+    "columns": [
+      "Brand",
+      "Category",
+      "Products",
+      "Status",
+      "Trend",
+      "Updated"
+    ],
+    "tones": {
+      "Gap": "bad",
+      "Slowing": "warn",
+      "Growing": "good"
+    },
+    "rows": [
+      [
+        "Aqua Smooth",
+        "Lubricants",
+        "14",
+        "Growing",
+        "+18%",
+        "1 Dec"
+      ],
+      [
+        "Lagos Botanics",
+        "Massage oils",
+        "9",
+        "Growing",
+        "+9%",
+        "1 Dec"
+      ],
+      [
+        "Eko Care",
+        "Intimate care washes",
+        "2",
+        "Gap",
+        "+22%",
+        "30 Nov"
+      ],
+      [
+        "PelviFit",
+        "Pelvic floor trainers",
+        "3",
+        "Gap",
+        "+31%",
+        "30 Nov"
+      ],
+      [
+        "SafeGuard",
+        "Condoms",
+        "21",
+        "Growing",
+        "+2%",
+        "29 Nov"
+      ],
+      [
+        "Naija Wellness",
+        "Supplements",
+        "7",
+        "Slowing",
+        "-6%",
+        "28 Nov"
+      ],
+      [
+        "Oba Naturals",
+        "Massage candles",
+        "5",
+        "Growing",
+        "+4%",
+        "27 Nov"
+      ],
+      [
+        "Kano Health",
+        "Intimate care wipes",
+        "3",
+        "Growing",
+        "+11%",
+        "26 Nov"
+      ]
+    ]
+  },
+  "queue": {
+    "title": "Assortment suggestions to review",
+    "lead": "Each suggestion shows the sales figures behind it. Nothing changes in your catalogue.",
+    "items": [
+      {
+        "id": "washes",
+        "title": "Add two intimate care washes",
+        "detail": "All stores.",
+        "reason": "Category grew 22% in 12 weeks; you stock 6 products."
+      },
+      {
+        "id": "pelvic",
+        "title": "Stock pelvic floor trainers online",
+        "detail": "Online channel.",
+        "reason": "Category grew 31%; online carries none today."
+      },
+      {
+        "id": "supp",
+        "title": "Reduce wellness supplement lines",
+        "detail": "Ikeja and Yaba stores.",
+        "reason": "Sales fell 6% over 12 weeks."
+      },
+      {
+        "id": "oils",
+        "title": "Keep massage oil range as it is",
+        "detail": "All stores.",
+        "reason": "Steady 9% growth with 27 products."
+      }
+    ]
+  }
+}

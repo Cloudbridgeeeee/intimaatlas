@@ -1,0 +1,20 @@
+{
+ "palettes": [
+  "teal-on-paper"
+ ],
+ "types": [
+  "instrument"
+ ],
+ "dealt": [
+  "instrument",
+  "manrope",
+  "bricolage"
+ ],
+ "moments": [
+  {
+   "id": "word-highlight",
+   "at": "2026-11-25T02:50:04.618Z",
+   "seed": "2cdfacec"
+  }
+ ]
+}
